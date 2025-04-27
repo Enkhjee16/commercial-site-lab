@@ -1,5 +1,5 @@
 <footer>
-        <p>© <?= date('Y') ?> Commercial Site</p>
+        <p>© Commercial Site (Enkhjee Gantulga, Khaliun Tamir)</p>
     </footer>
 </body>
 </html>
