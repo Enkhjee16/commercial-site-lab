@@ -1,3 +1,4 @@
+
 <h1>Welcome to Our Commercial Site!</h1>
 
 <p>We offer the best products for amazing prices. This is just an Example page for homework. Shop with us and experience quality service!</p>

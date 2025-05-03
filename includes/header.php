@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +24,3 @@
             <p>Logged in: <?= $_SESSION['family_name'] . ' ' . $_SESSION['surname'] ?> (<?= $_SESSION['username'] ?>)</p>
         <?php endif; ?>
     </header>
-
-
-
