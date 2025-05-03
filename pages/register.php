@@ -1,4 +1,6 @@
 <?php
+include_once 'includes/db.php';
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
     $password = trim($_POST['password']);
@@ -13,10 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $error = "Username already taken.";
         } else {
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-
             $stmt = $dbh->prepare("INSERT INTO users (username, password, family_name, surname) VALUES (?, ?, ?, ?)");
             $stmt->execute([$username, $hashed_password, $family_name, $surname]);
-
             $success = "Registration successful! You can now login.";
         }
     } else {

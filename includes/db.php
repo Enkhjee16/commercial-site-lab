@@ -1,4 +1,5 @@
 <?php
+
 $dsn = 'mysql:host=localhost;dbname=commercialdb;charset=utf8';
 $user = 'commercialdb';
 $pass = 'Enkhjee123';
